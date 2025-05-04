@@ -12,6 +12,21 @@
     --transition: all 0.3s ease;
 }
 
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('../fonts/segoeui-subset.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'SegoeUI';
+    src: url('../fonts/segoeuib-subset.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +34,7 @@
 }
 
 body {
-    font-family: 'Segoe UI';
+    font-family: 'SegoeUI';
     line-height: 1.6;
     color: var(--black-color);
     background-color: var(--white-color);
