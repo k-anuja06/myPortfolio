@@ -200,7 +200,7 @@ section {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url('../images/social-sprite.png');
+    background-image: url('../images/webp/social-sprite.webp');
     background-repeat: no-repeat;
     transition: var(--transition);
     text-indent: -9999px; /* Hide text for accessibility */
